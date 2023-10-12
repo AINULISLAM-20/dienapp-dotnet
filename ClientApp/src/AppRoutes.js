@@ -10,7 +10,7 @@ const AppRoutes = [
     element: <AboutUs />
   },
   {
-    path: '/ContactUs',
+    path: '/Contact',
     element: <ContactUs />
   },
   {
