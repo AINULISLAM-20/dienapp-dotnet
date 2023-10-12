@@ -10,7 +10,7 @@ import btn02 from '../../images/btn-2.webp'
 
 
 
-export default function Qualities() {
+export default function Qualities({ title, text, bulletText }) {
   return (
     <div>
       {/* QUALITIES SECTION */}
@@ -64,64 +64,23 @@ export default function Qualities() {
             </div>
             <div className="generic-box-content position-relative">
               <h2 data-aos="fade-up" data-aos-duration={600}>
-                We Connect People{" "}
-                <span className="color-01d0cc">
-                  to Find Best Services Nearest to You{" "}
-                </span>
+                {title}
               </h2>
               <p data-aos="fade-up" data-aos-duration={600}>
-                Our innovative platform seamlessly connects people, allowing them to
-                easily discover and access the highest quality services located
-                conveniently in their area
+                {text}
               </p>
               <div className="generic-list">
                 <ul className="list-unstyled">
-                  <li data-aos="fade-up" data-aos-duration={600}>
-                    <span className="d-block">
-                      Your peace of mind is our priority
-                    </span>
-                    <p className="mb-0">
-                      We are committed to ensuring the security of your essential
-                      services. <br />
-                      Experience the assurance of a job well done. <br />
-                    </p>
-                  </li>
-                  <li data-aos="fade-up" data-aos-duration={600}>
-                    <span className="d-block">Real-Time Task Monitoring</span>
-                    <p className="mb-0">
-                      Confidently monitor your tasks in real-time through live
-                      streaming. <br />
-                      Upon completion, access recorded videos as irrefutable proof.
-                    </p>
-                  </li>
-                  <li data-aos="fade-up" data-aos-duration={600}>
-                    <span className="d-block">
-                      {" "}
-                      Manage Your Finances and Track Your History
-                    </span>
-                    <p className="mb-0">
-                      Monitor spending easily within the app to stay on top of your
-                      finances.
-                      <br />
-                      View individual job costs for accurate expense tracking and
-                      financial clarity.
-                      <br />
-                    </p>
-                  </li>
-                  <li data-aos="fade-up" data-aos-duration={600}>
-                    <span className="d-block">
-                      {" "}
-                      Easy Service Scheduling with Our App
-                    </span>
-                    <p className="mb-0">
-                      Easily book services with a few taps for effortless
-                      scheduling.
-                      <br />
-                      Adjust service times as needed with our user-friendly app,
-                      ensuring ultimate convenience..
-                      <br />
-                    </p>
-                  </li>
+                  {bulletText.map(({ title, text }, idx) => {
+                    return (<li data-aos="fade-up" data-aos-duration={600} key={idx}>
+                      <span className="d-block">
+                        {title}
+                      </span>
+                      <p className="mb-0">
+                        {text}
+                      </p>
+                    </li>)
+                  })}
                 </ul>
               </div>
               <div className="d-flex align-items-center more-details">
