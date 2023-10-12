@@ -1,5 +1,8 @@
 import React from 'react'
 
+import { Link } from "react-router-dom";
+
+
 export default function Footer() {
   return (
     <div>
@@ -19,19 +22,22 @@ export default function Footer() {
               <h4>Quick Links</h4>
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="index.html">Home</a>
+                <Link to={'/'} >Home</Link>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                <Link to={'/about'} >About Us</Link>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                <Link to={'/services'} >Services</Link>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                <Link to={'/contact'} >Contact Us</Link>
                 </li>
                 <li>
-                  <a href="#">Terms &amp; Conditions</a>
+                <Link to={'/register'} >Register</Link>
+                </li>
+                <li>
+                <Link to={'/login'} >Login</Link>
                 </li>
               </ul>
             </div>
