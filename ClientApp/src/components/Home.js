@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+
 import PhoneIcon from '../images/phone-icon.png';
 import EmailIcon from '../images/email-icon.png'
 import BrandLogo from '../images/logo-img.png'
@@ -187,7 +189,7 @@ export function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 order-lg-0 order-1">
+              <div className="col-lg-5 order-lg-0 order-1 position-relative">
                 <div className="banner-img">
                   <figure className="mb-0">
                     <img
