@@ -5,6 +5,8 @@ import team02 from '../../images/team-image2.png'
 import team03 from '../../images/team-image3.png'
 import team04 from '../../images/team-image4.png'
 
+// icons
+import {FaStar} from 'react-icons/fa'
 
 export default function TopProvider() {
   return (
@@ -34,47 +36,31 @@ export default function TopProvider() {
               <div className="team-social-icon d-flex flex-column align-items-end">
                 <ul className="list-unstyled">
                   <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
                 </ul>
@@ -92,48 +78,32 @@ export default function TopProvider() {
               </figure>
               <div className="team-social-icon d-flex flex-column align-items-end">
                 <ul className="list-unstyled">
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
                 </ul>
@@ -151,48 +121,32 @@ export default function TopProvider() {
               </figure>
               <div className="team-social-icon d-flex flex-column align-items-end">
                 <ul className="list-unstyled">
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
                 </ul>
@@ -210,48 +164,32 @@ export default function TopProvider() {
               </figure>
               <div className="team-social-icon d-flex flex-column align-items-end">
                 <ul className="list-unstyled">
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
+                    </a>
+                  </li>
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
+                    </a>
+                  </li>
+                <li>
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#FFC107", fontSize: "1rem" }}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        className="fa fa-star"
-                        style={{ color: "#adadad", fontSize: "1rem" }}
-                      />
+                    <a href="#" className="d-flex justify-content-center" >
+                      <i style={{color: "#FFC107", fontSize: "2rem" }}>
+                        <FaStar/>
+                        </i>
                     </a>
                   </li>
                 </ul>
