@@ -2,6 +2,12 @@ import React from "react";
 import PhoneIcon from "../../images/phone-icon.png";
 import EmailIcon from "../../images/email-icon.png";
 
+// icons
+import {FaFacebookF} from 'react-icons/fa'
+import {FaTwitter} from 'react-icons/fa'
+import {FaLinkedinIn} from 'react-icons/fa'
+import {FaInstagram} from 'react-icons/fa'
+
 export default function PrimaryNav() {
   return (
     <div>
@@ -17,22 +23,22 @@ export default function PrimaryNav() {
                 <ul className="list-unstyled mb-0 d-flex">
                   <li>
                     <a href="#">
-                      <i className="fab fa-facebook-f d-flex align-items-center justify-content-center" />
+                      <i className="d-flex align-items-center justify-content-center"><FaFacebookF/></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-twitter d-flex align-items-center justify-content-center" />
+                    <i className="d-flex align-items-center justify-content-center"><FaTwitter/></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-linkedin-in d-flex align-items-center justify-content-center" />
+                    <i className="d-flex align-items-center justify-content-center"><FaLinkedinIn/></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-instagram d-flex align-items-center justify-content-center" />
+                    <i className="d-flex align-items-center justify-content-center"><FaInstagram/></i>
                     </a>
                   </li>
                 </ul>
