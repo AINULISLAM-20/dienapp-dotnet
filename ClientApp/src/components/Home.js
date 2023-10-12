@@ -10,6 +10,44 @@ import Mobile03 from '../images/app-mob-03.png'
 
 import HeadPhoneIcon from '../images/headphones-icon.png'
 
+import btn01 from '../images/btn-1.webp'
+import btn02 from '../images/btn-2.webp'
+
+import service01 from '../images/service-img1.jpg'
+import service02 from '../images/service-img2.jpg'
+import service03 from '../images/service-img3.jpg'
+import service04 from '../images/service-img4.jpg'
+
+import left from '../images/left-angle.png'
+
+import team01 from '../images/team-image1.png'
+import team02 from '../images/team-image2.png'
+import team03 from '../images/team-image3.png'
+import team04 from '../images/team-image4.png'
+
+import project01 from '../images/project-img1.jpg'
+import project02 from '../images/project-img2.jpg'
+import project03 from '../images/project-img3.jpg'
+import project04 from '../images/project-img4.jpg'
+import project05 from '../images/project-img5.jpg'
+import project06 from '../images/project-img6.jpg'
+
+import location from '../images/location-icon.png'
+import contact from '../images/contact-img.png'
+
+import planCheck from '../images/plan-check.png'
+
+import starImg from '../images/star-img.png'
+import clientImg1 from '../images/client-img1.png'
+import clientImg2 from '../images/client-img2.png'
+import clientImg3 from '../images/client-img3.png'
+
+import paperPlane from '../images/paper-plane-icon.png'
+import arrow from '../images/top-arrow.png'
+
+import mobileLogo from '../images/mobile-logo.png'
+
+
 
 export function Home() {
   return (
@@ -81,7 +119,7 @@ export function Home() {
         <div className="wrapper">
           <nav className="navbar navbar-expand-lg navbar-dark px-0">
             <a className="navbar-brand d-lg-none" href="index.html">
-              <img src="assets/images/mobile-logo.png" alt="mobile-logo" />
+              <img src={mobileLogo} alt="mobile-logo" />
             </a>
             <button
               className="navbar-toggler collapsed"
@@ -241,13 +279,13 @@ export function Home() {
                 <img
                   className="mx-2"
                   style={{ cursor: "pointer" }}
-                  src="./assets/images/btn-1.webp"
+                  src={btn01}
                   alt=""
                 />
                 <img
                   className="mx-2"
                   style={{ cursor: "pointer" }}
-                  src="./assets/images/btn-2.webp"
+                  src={btn02}
                   alt=""
                 />
               </div>
@@ -354,7 +392,7 @@ export function Home() {
                 <div className="item">
                   <div className="service-item text-center">
                     <figure>
-                      <img src="assets/images/service-img1.jpg" alt="service-img" />
+                      <img src={service01} alt="service-img" />
                     </figure>
                     <h3>Air Duct Cleaning</h3>
                     <p>
@@ -362,14 +400,14 @@ export function Home() {
                       Healthier Living.
                     </p>
                     <a href="#">
-                      <img src="assets/images/left-angle.png" alt="left-angle" />
+                      <img src={left} alt="left-angle" />
                     </a>
                   </div>
                 </div>
                 <div className="item">
                   <div className="service-item text-center">
                     <figure>
-                      <img src="assets/images/service-img2.jpg" alt="service-img" />
+                      <img src={service02} alt="service-img" />
                     </figure>
                     <h3>Lawn Service</h3>
                     <p>
@@ -377,14 +415,14 @@ export function Home() {
                       Paradise.
                     </p>
                     <a href="#">
-                      <img src="assets/images/left-angle.png" alt="left-angle" />
+                      <img src={left} alt="left-angle" />
                     </a>
                   </div>
                 </div>
                 <div className="item">
                   <div className="service-item text-center">
                     <figure>
-                      <img src="assets/images/service-img3.jpg" alt="service-img" />
+                      <img src={service03} alt="service-img" />
                     </figure>
                     <h3>Landscaping Service</h3>
                     <p>
@@ -392,14 +430,14 @@ export function Home() {
                       That Exceed Expectations.
                     </p>
                     <a href="#">
-                      <img src="assets/images/left-angle.png" alt="left-angle" />
+                      <img src={left} alt="left-angle" />
                     </a>
                   </div>
                 </div>
                 <div className="item">
                   <div className="service-item text-center">
                     <figure>
-                      <img src="assets/images/service-img4.jpg" alt="service-img" />
+                      <img src={service04} alt="service-img" />
                     </figure>
                     <h3>Pest Control Service</h3>
                     <p>
@@ -407,14 +445,14 @@ export function Home() {
                       Trust.
                     </p>
                     <a href="#">
-                      <img src="assets/images/left-angle.png" alt="left-angle" />
+                      <img src={left} alt="left-angle" />
                     </a>
                   </div>
                 </div>
                 <div className="item">
                   <div className="service-item text-center">
                     <figure>
-                      <img src="assets/images/service-img1.jpg" alt="service-img" />
+                      <img src={service01} alt="service-img" />
                     </figure>
                     <h3>Gutter Cleaning</h3>
                     <p>
@@ -422,7 +460,7 @@ export function Home() {
                       Flowing Smoothly.
                     </p>
                     <a href="#">
-                      <img src="assets/images/left-angle.png" alt="left-angle" />
+                      <img src={left} alt="left-angle" />
                     </a>
                   </div>
                 </div>
@@ -459,7 +497,7 @@ export function Home() {
               data-aos-duration={600}
             >
               <figure>
-                <img src="assets/images/team-img1.png" alt="team-img" />
+                <img src={team01} alt="team-img" />
               </figure>
               <div className="team-social-icon d-flex flex-column align-items-end">
                 <ul className="list-unstyled">
@@ -518,7 +556,7 @@ export function Home() {
               data-aos-duration={600}
             >
               <figure>
-                <img src="assets/images/team-img2.png" alt="team-img" />
+                <img src={team02} alt="team-img" />
               </figure>
               <div className="team-social-icon d-flex flex-column align-items-end">
                 <ul className="list-unstyled">
@@ -577,7 +615,7 @@ export function Home() {
               data-aos-duration={600}
             >
               <figure>
-                <img src="assets/images/team-img3.png" alt="team-img" />
+                <img src={team03} alt="team-img" />
               </figure>
               <div className="team-social-icon d-flex flex-column align-items-end">
                 <ul className="list-unstyled">
@@ -636,7 +674,7 @@ export function Home() {
               data-aos-duration={600}
             >
               <figure>
-                <img src="assets/images/team-img4.png" alt="team-img" />
+                <img src={team04} alt="team-img" />
               </figure>
               <div className="team-social-icon d-flex flex-column align-items-end">
                 <ul className="list-unstyled">
@@ -712,13 +750,13 @@ export function Home() {
                 data-aos-duration={600}
               >
                 <figure className="mb-0">
-                  <img src="assets/images/project-img1.jpg" alt="project-img" />
+                  <img src={project01} alt="project-img" />
                 </figure>
                 <div className="project-item-content text-white">
                   <h3>Window Cleaning</h3>
                   <div className="location-tag position-relative">
                     <img
-                      src="assets/images/location-icon.png"
+                      src={location}
                       alt="location-icon"
                     />
                     <span>New York</span>
@@ -736,13 +774,13 @@ export function Home() {
                 data-aos-duration={600}
               >
                 <figure className="mb-0">
-                  <img src="assets/images/project-img2.jpg" alt="project-img" />
+                  <img src={project02} alt="project-img" />
                 </figure>
                 <div className="project-item-content text-white">
                   <h3>Room Cleaning</h3>
                   <div className="location-tag position-relative">
                     <img
-                      src="assets/images/location-icon.png"
+                      src={location}
                       alt="location-icon"
                     />
                     <span>NYX Hotel Milan </span>
@@ -760,13 +798,13 @@ export function Home() {
                 data-aos-duration={600}
               >
                 <figure className="mb-0">
-                  <img src="assets/images/project-img3.jpg" alt="project-img" />
+                  <img src={project03} alt="project-img" />
                 </figure>
                 <div className="project-item-content text-white">
                   <h3>Gutter cleaning</h3>
                   <div className="location-tag position-relative">
                     <img
-                      src="assets/images/location-icon.png"
+                      src={location}
                       alt="location-icon"
                     />
                     <span>Los angeles</span>
@@ -784,13 +822,13 @@ export function Home() {
                 data-aos-duration={600}
               >
                 <figure className="mb-0">
-                  <img src="assets/images/project-img4.jpg" alt="project-img" />
+                  <img src={project04} alt="project-img" />
                 </figure>
                 <div className="project-item-content text-white">
                   <h3>Pest control</h3>
                   <div className="location-tag position-relative">
                     <img
-                      src="assets/images/location-icon.png"
+                      src={location}
                       alt="location-icon"
                     />
                     <span>north central Idaho</span>
@@ -808,13 +846,13 @@ export function Home() {
                 data-aos-duration={600}
               >
                 <figure className="mb-0">
-                  <img src="assets/images/project-img5.jpg" alt="project-img" />
+                  <img src={project05} alt="project-img" />
                 </figure>
                 <div className="project-item-content text-white">
                   <h3>Laundary Cleaning</h3>
                   <div className="location-tag position-relative">
                     <img
-                      src="assets/images/location-icon.png"
+                      src={location}
                       alt="location-icon"
                     />
                     <span>las Vegas</span>
@@ -832,13 +870,13 @@ export function Home() {
                 data-aos-duration={600}
               >
                 <figure className="mb-0">
-                  <img src="assets/images/project-img6.jpg" alt="project-img" />
+                  <img src={project06} alt="project-img" />
                 </figure>
                 <div className="project-item-content text-white">
                   <h3>Gutter cleaning</h3>
                   <div className="location-tag position-relative">
                     <img
-                      src="assets/images/location-icon.png"
+                      src={location}
                       alt="location-icon"
                     />
                     <span>Los angeles</span>
@@ -929,7 +967,7 @@ export function Home() {
                 data-aos-duration={600}
               >
                 <figure className="mb-0">
-                  <img src="assets/images/contact-img.png" alt="contact-img" />
+                  <img src={contact} alt="contact-img" />
                 </figure>
               </div>
             </div>
@@ -980,42 +1018,42 @@ export function Home() {
                       <ul className="list-unstyled">
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Proof of Performance Photos
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Share Location
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Maximum 5 Jobs
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />
                           Individual
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />
                           Service Profile
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />
                           Single Service Category
@@ -1048,42 +1086,42 @@ export function Home() {
                       <ul className="list-unstyled">
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           4G Body Camera ($600)
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Proof of Performance Videos
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Share Location/Navigation
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Maximum 15 Jobs Per Month
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />
                           Video Services Profile
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />
                           Multiple Service Categories
@@ -1116,42 +1154,42 @@ export function Home() {
                       <ul className="list-unstyled">
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           4G/5G Body Camera ($600)
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Proof of Performance Live Videos
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Share Location/Navigation
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />{" "}
                           Unlimited jobs
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />
                           Video Services Profile
                         </li>
                         <li className="position-relative">
                           <img
-                            src="assets/images/plan-check.png"
+                            src={planCheck}
                             alt="plan-check"
                           />
                           Multiple Service Categories
@@ -1192,13 +1230,13 @@ export function Home() {
                         recommended air duct cleaning service!
                       </p>
                       <figure className="mb-0">
-                        <img src="assets/images/star-img.png" alt="star-img" />
+                        <img src={starImg} alt="star-img" />
                       </figure>
                     </div>
                     <div className="client-info">
                       <figure className="mb-0">
                         <img
-                          src="assets/images/client-img1.png"
+                          src={clientImg1}
                           alt="client-img1"
                         />
                       </figure>
@@ -1216,13 +1254,13 @@ export function Home() {
                         They work magic on lawns!
                       </p>
                       <figure className="mb-0">
-                        <img src="assets/images/star-img.png" alt="star-img" />
+                        <img src={starImg} alt="star-img" />
                       </figure>
                     </div>
                     <div className="client-info">
                       <figure className="mb-0">
                         <img
-                          src="assets/images/client-img2.png"
+                          src={clientImg2}
                           alt="client-img1"
                         />
                       </figure>
@@ -1240,13 +1278,13 @@ export function Home() {
                         yard into a stunning dream!
                       </p>
                       <figure className="mb-0">
-                        <img src="assets/images/star-img.png" alt="star-img" />
+                        <img src={starImg} alt="star-img" />
                       </figure>
                     </div>
                     <div className="client-info">
                       <figure className="mb-0">
                         <img
-                          src="assets/images/client-img3.png"
+                          src={clientImg3}
                           alt="client-img1"
                         />
                       </figure>
@@ -1265,13 +1303,13 @@ export function Home() {
                         occaecat cupidatat non proide sunt in culpa qui.
                       </p>
                       <figure className="mb-0">
-                        <img src="assets/images/star-img.png" alt="star-img" />
+                        <img src={starImg} alt="star-img" />
                       </figure>
                     </div>
                     <div className="client-info">
                       <figure className="mb-0">
                         <img
-                          src="assets/images/client-img1.png"
+                          src={clientImg2}
                           alt="client-img1"
                         />
                       </figure>
@@ -1291,13 +1329,13 @@ export function Home() {
                         occaecat cupidatat non proide sunt in culpa qui.
                       </p>
                       <figure className="mb-0">
-                        <img src="assets/images/star-img.png" alt="star-img" />
+                        <img src={starImg} alt="star-img" />
                       </figure>
                     </div>
                     <div className="client-info">
                       <figure className="mb-0">
                         <img
-                          src="assets/images/client-img1.png"
+                          src={clientImg3}
                           alt="client-img1"
                         />
                       </figure>
@@ -1317,13 +1355,13 @@ export function Home() {
                         occaecat cupidatat non proide sunt in culpa qui.
                       </p>
                       <figure className="mb-0">
-                        <img src="assets/images/star-img.png" alt="star-img" />
+                        <img src={starImg} alt="star-img" />
                       </figure>
                     </div>
                     <div className="client-info">
                       <figure className="mb-0">
                         <img
-                          src="assets/images/client-img1.png"
+                          src={clientImg1}
                           alt="client-img1"
                         />
                       </figure>
@@ -1351,7 +1389,7 @@ export function Home() {
             <div className="position-relative newsletter-content">
               <figure className="mb-0">
                 <img
-                  src="assets/images/paper-plane-icon.png"
+                  src={paperPlane}
                   alt="paper-plane-icon"
                 />
               </figure>
@@ -1434,7 +1472,7 @@ export function Home() {
       <div className="w-100 float-left copyright-con position-relative">
         <a href="#back-top">
           <div className="black-btn">
-            <img src="assets/images/top-arrow.png" alt="top-arrow" />
+            <img src={arrow} alt="top-arrow" />
           </div>
         </a>
         <div className="wrapper">
