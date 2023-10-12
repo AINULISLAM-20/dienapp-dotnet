@@ -1,14 +1,7 @@
 import React from 'react'
-
-import service01 from '../../images/service-img1.jpg'
-import service02 from '../../images/service-img2.jpg'
-import service03 from '../../images/service-img3.jpg'
-import service04 from '../../images/service-img4.jpg'
-
 import left from '../../images/left-angle.png'
 
-export default function Services({ title, list, imgSrc }) {
-  console.log(imgSrc)
+export default function Services({ title, list }) {
   return (
     <div>
       {/* SERVICE SECTION */}
@@ -26,11 +19,11 @@ export default function Services({ title, list, imgSrc }) {
               data-aos-duration={600}
             >
               <div className="owl-carousel owl-theme" id="service-slider">
-                {list.map(({ title, text }, index) => {
+                {list.map(({ imgSrc, title, text }, index) => {
                   return (<div className="item" key={index}>
                     <div className="service-item text-center">
                       <figure>
-                        <img src={service01} alt="service-img" />
+                        <img src={imgSrc} alt="service-img" />
                       </figure>
                       <h3>{title}</h3>
                       <p>{text}</p>
