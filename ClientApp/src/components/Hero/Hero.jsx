@@ -44,7 +44,7 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 order-lg-0 order-1">
+              <div className="col-lg-5 order-lg-0 order-1 position-relative">
                 <div className="banner-img">
                   <figure className="mb-0">
                     <img src={HeroImage} alt="home-girls-img" />

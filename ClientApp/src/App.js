@@ -1,31 +1,31 @@
 import React, { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
-import { Layout } from './components/Layout';
-
-import { Home } from './components/Home'
+import { Loader, PrimaryNav, SecondaryNav, NewsLater, Footer, CopyRightFooter } from "./components";
 
 import './superclasses.css';
 import './custom.css';
 // import './mobile.css';
-
-// import './custom.css';
-// import './custom.css';
-// import './custom.css';
 
 export default class App extends Component {
   static displayName = App.name;
 
   render() {
     return (
-      <Layout>
+      <React.Fragment>
+        <Loader />
+        <PrimaryNav />
+        <SecondaryNav />
         <Routes>
           {AppRoutes.map((route, index) => {
             const { element, ...rest } = route;
             return <Route key={index} {...rest} element={element} />;
           })}
         </Routes>
-      </Layout>
+        <NewsLater />
+        <Footer />
+        <CopyRightFooter />
+      </React.Fragment>
     );
   }
 }
