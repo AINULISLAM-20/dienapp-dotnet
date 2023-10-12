@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
+import ItemsCarousel from 'react-items-carousel';
+
 
 import starImg from '../../images/star-img.png'
 import clientImg1 from '../../images/client-img1.png'
@@ -7,10 +9,13 @@ import clientImg3 from '../../images/client-img3.png'
 
 
 export default function Tesstimonials() {
+  const [activeItemIndex, setActiveItemIndex] = useState(0);
+  const chevronWidth = 40;
+
   return (
     <div>
-       {/* TESTIMONIALS SECTION */}
-       <section
+      {/* TESTIMONIALS SECTION */}
+      <section
         className="w-100 float-left user-con position-relative"
         style={{ backgroundColor: "#fff" }}
       >
@@ -29,11 +34,15 @@ export default function Tesstimonials() {
                   </span>
                 </h2>
               </div>
-              <div
-                className="owl-carousel owl-theme"
-                id="client-slider"
-                data-aos="fade-up"
-                data-aos-duration={600}
+              <ItemsCarousel
+                requestToChangeActive={setActiveItemIndex}
+                activeItemIndex={activeItemIndex}
+                numberOfCards={3}
+                gutter={20}
+                leftChevron={<button>{'<'}</button>}
+                rightChevron={<button>{'>'}</button>}
+                outsideChevron
+                chevronWidth={chevronWidth}
               >
                 <div className="item">
                   <div className="client-review-box">
@@ -185,7 +194,7 @@ export default function Tesstimonials() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </ItemsCarousel>
             </div>
           </div>
         </div>
