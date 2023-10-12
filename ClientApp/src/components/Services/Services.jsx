@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import left from '../../images/left-angle.png'
 
+import ItemsCarousel from 'react-items-carousel';
+
 export default function Services({ title, list }) {
+  const [activeItemIndex, setActiveItemIndex] = useState(0);
+  const chevronWidth = 40;
   return (
     <div>
       {/* SERVICE SECTION */}
@@ -18,7 +22,16 @@ export default function Services({ title, list }) {
               data-aos="fade-up"
               data-aos-duration={600}
             >
-              <div className="owl-carousel owl-theme" id="service-slider">
+              <ItemsCarousel
+                requestToChangeActive={setActiveItemIndex}
+                activeItemIndex={activeItemIndex}
+                numberOfCards={4}
+                gutter={20}
+                leftChevron={<button>{'<'}</button>}
+                rightChevron={<button>{'>'}</button>}
+                outsideChevron
+                chevronWidth={chevronWidth}
+              >
                 {list.map(({ imgSrc, title, text }, index) => {
                   return (<div className="item" key={index}>
                     <div className="service-item text-center">
@@ -33,7 +46,10 @@ export default function Services({ title, list }) {
                     </div>
                   </div>)
                 })}
-              </div>
+              </ItemsCarousel>
+
+              {/* <div className="owl-carousel owl-theme" id="service-slider"></div> */}
+
             </div>
             <div
               className="generic-btn d-block text-center"
