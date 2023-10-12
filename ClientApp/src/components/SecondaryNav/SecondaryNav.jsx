@@ -2,6 +2,8 @@ import React from "react";
 import BrandLogo from "../../images/logo-img.png";
 import mobileLogo from "../../images/mobile-logo.png";
 
+import { Link } from "react-router-dom";
+
 export default function SecondaryNav() {
   return (
     <div>
@@ -9,9 +11,9 @@ export default function SecondaryNav() {
       <header className="w-100 float-left header-con">
         <div className="wrapper">
           <nav className="navbar navbar-expand-lg navbar-dark px-0">
-            <a className="navbar-brand d-lg-none" href="index.html">
+            <Link to={'/'} className="navbar-brand d-lg-none">
               <img src={mobileLogo} alt="mobile-logo" />
-            </a>
+            </Link>
             <button
               className="navbar-toggler collapsed"
               type="button"
@@ -32,42 +34,30 @@ export default function SecondaryNav() {
             >
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active p-0" href="index.html">
-                    HOME
-                  </a>
+                  <Link to={'/'} className="nav-link active p-0">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="#">
-                    ABOUT US{" "}
-                  </a>
+                  <Link to={'/about'} className="nav-link p-0">About Us</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="#">
-                    Services
-                  </a>
+                  <Link to={'/services'} className="nav-link p-0">Services</Link>
                 </li>
               </ul>
               {/*   Show this only lg screens and up   */}
-              <a className="navbar-brand d-none d-lg-block" href="index.html">
+              <Link to={'/'} className="navbar-brand d-none d-lg-block">
                 <figure className="mb-0">
                   <img src={BrandLogo} alt="logo-img" />
                 </figure>
-              </a>
+              </Link>
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="#">
-                    Contact Us
-                  </a>
+                  <Link to={'/contact'} className="nav-link p-0">Contact Us</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="#">
-                    Register
-                  </a>
+                  <Link to={'/register'} className="nav-link p-0">Register</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="#">
-                    Login
-                  </a>
+                  <Link to={'/login'} className="nav-link p-0">Login</Link>
                 </li>
               </ul>
             </div>
