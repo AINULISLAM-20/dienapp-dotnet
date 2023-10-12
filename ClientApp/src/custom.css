@@ -2642,7 +2642,7 @@ li.page-item.last {
 
 /**** FOOTER SECTION****/
 /******** PRE LODER CSS****/
-@-webkit-keyframes mover {
+@keyframes mover {
     0% {
         transform: translateY(0);
     }
@@ -2700,20 +2700,6 @@ li.page-item.last {
 .loader div:last-child {
     -webkit-animation-delay: -1s;
     animation-delay: -1s;
-}
-
-@-webkit-keyframes ballPulseDouble {
-
-    0%,
-    100% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-    }
-
-    50% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
 }
 
 @keyframes ballPulseDouble {
