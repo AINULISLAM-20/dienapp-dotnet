@@ -51,7 +51,7 @@ export default function SecondaryNav() {
               </Link>
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link to={'/contact'} className="nav-link p-0">Contact Us</Link>
+                  <Link to={'/ContactUs'} className="nav-link p-0">Contact Us</Link>
                 </li>
                 <li className="nav-item">
                   <Link to={'/register'} className="nav-link p-0">Register</Link>

@@ -1,7 +1,6 @@
 import { AboutUs } from "./AboutUs";
 import { ContactUs } from "./ContactUs";
 import { Home } from "./Home";
-
 import { Login } from "./Login";
 import { PrivacyPolicy } from "./PrivacyPolicy";
 import { Register } from "./Register";
