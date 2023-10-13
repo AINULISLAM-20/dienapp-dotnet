@@ -40,6 +40,7 @@ export function AboutUs() {
     ]
     return (
         <React.Fragment>
+            
             {AboutData.map((a, index) => {
                 return a.renderComponent(index)
             })}
