@@ -1,11 +1,7 @@
 import React from 'react'
-<<<<<<< HEAD
 import './CopyRightFooter.css'
-
-import arrow from '../../images/top-arrow.png'
-=======
 import Arrow from '../../images/top-arrow.png'
->>>>>>> 9e3356c578e09f46caff96a81a847c9b320151c1
+
 
 // icons
 import { FaFacebookF } from 'react-icons/fa'

@@ -76,36 +76,7 @@ export function Home() {
                 return <Services {...this} key={index} />
             }
         },
-        {
-            title: "Top Providers",
-            list: [
-                {
-                    imgSrc: service01,
-                    title: "Air Duct Cleaning",
-                    text: "Breathe Easy with Fresh, Clean Air – Air Duct Cleaning for Healthier Living."
-                },
-                {
-                    imgSrc: service02,
-                    title: "Lawn Service",
-                    text: "Your Dream Lawn, Our Passion – Transforming Yards into Lush Paradise."
-                },
-                {
-                    title: "Landscaping Service",
-                    text: "Crafting Beauty, Nurturing Serenity – Landscaping Services That Exceed Expectations."
-                },
-                {
-                    title: "Pest Control Service",
-                    text: "Protecting Your Peace of Mind – Pest Control Services You Can Trust."
-                },
-                {
-                    title: "Gutter Cleaning",
-                    text: "Clear Skies, Clean Gutters – Keeping Your Home Safe and Water Flowing Smoothly."
-                }
-            ],
-            renderComponent: function (index) {
-                return <Services {...this} key={index} />
-            }
-        },
+
     ]
     return (
         <React.Fragment>
