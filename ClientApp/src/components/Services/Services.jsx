@@ -1,4 +1,5 @@
 import React from 'react'
+import './Services.css'
 
 import service01 from '../../images/service-img1.jpg'
 import service02 from '../../images/service-img2.jpg'

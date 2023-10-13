@@ -1,7 +1,7 @@
 import React from 'react'
+import './CopyRightFooter.css'
+
 import arrow from '../../images/top-arrow.png'
-
-
 
 // icons
 import {FaFacebookF} from 'react-icons/fa'

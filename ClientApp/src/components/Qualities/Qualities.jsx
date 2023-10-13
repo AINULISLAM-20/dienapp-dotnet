@@ -1,4 +1,5 @@
 import React from 'react'
+import './Qualities.css'
 import Mobile01 from '../../images/app-mob-01.png'
 import Mobile02 from '../../images/app-mob-02.png'
 import Mobile03 from '../../images/app-mob-03.png'

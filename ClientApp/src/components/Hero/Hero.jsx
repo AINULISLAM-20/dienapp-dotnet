@@ -1,7 +1,9 @@
 import React from "react";
+import './Hero.css'
+
 import HeroImage from "../../images/home-girls-img.png";
 
-export default function Hero({ title, text, buttonText }) {
+export default function Hero({ title = null, text = null, buttonText = [] }) {
   return (
     <div>
       {/* BANNER SECTION */}

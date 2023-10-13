@@ -1,4 +1,5 @@
 import React from 'react'
+import './OurProjects.css'
 
 import project01 from '../../images/project-img1.jpg'
 import project02 from '../../images/project-img2.jpg'

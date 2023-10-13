@@ -12,6 +12,7 @@ import Tesstimonials from "./Testimonials/Tesstimonials";
 import NewsLater from "./NewsLater/NewsLater";
 import Footer from "./Footer/Footer";
 import CopyRightFooter from "./CopyRightFooter/CopyRightFooter";
+import LoginForm from "./LoginForm/LoginForm";
+import RegisterForm from "./RegisterForm/RegisterForm";
 
-
-export { Loader, PrimaryNav, SecondaryNav, Hero, Qualities, Services, TopProvider, OurProjects, ContactForm, PricingPlan, Tesstimonials, NewsLater, Footer, CopyRightFooter }
+export { Loader, PrimaryNav, SecondaryNav, Hero, Qualities, Services, TopProvider, OurProjects, ContactForm, PricingPlan, Tesstimonials, NewsLater, Footer, CopyRightFooter, LoginForm, RegisterForm }
