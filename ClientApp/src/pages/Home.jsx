@@ -57,14 +57,17 @@ export function Home() {
                     text: "Your Dream Lawn, Our Passion – Transforming Yards into Lush Paradise."
                 },
                 {
+                    imgSrc: service03,
                     title: "Landscaping Service",
                     text: "Crafting Beauty, Nurturing Serenity – Landscaping Services That Exceed Expectations."
                 },
                 {
+                    imgSrc: service04,
                     title: "Pest Control Service",
                     text: "Protecting Your Peace of Mind – Pest Control Services You Can Trust."
                 },
                 {
+                    imgSrc: service01,
                     title: "Gutter Cleaning",
                     text: "Clear Skies, Clean Gutters – Keeping Your Home Safe and Water Flowing Smoothly."
                 }
@@ -109,7 +112,6 @@ export function Home() {
             {HomeData.map((a, index) => {
                 return a.renderComponent(index)
             })}
-            {/* <Services /> */}
             <TopProvider />
             <OurProjects />
             <ContactForm />

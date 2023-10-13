@@ -1,15 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Services.css'
-
-import service01 from '../../images/service-img1.jpg'
-import service02 from '../../images/service-img2.jpg'
-import service03 from '../../images/service-img3.jpg'
-import service04 from '../../images/service-img4.jpg'
-
 import left from '../../images/left-angle.png'
 
-export default function Services({ title, list, imgSrc }) {
-  console.log(imgSrc)
+import ItemsCarousel from 'react-items-carousel';
+
+export default function Services({ title, list }) {
+  const [activeItemIndex, setActiveItemIndex] = useState(0);
+  const chevronWidth = 40;
   return (
     <div>
       {/* SERVICE SECTION */}
@@ -26,12 +23,21 @@ export default function Services({ title, list, imgSrc }) {
               data-aos="fade-up"
               data-aos-duration={600}
             >
-              <div className="owl-carousel owl-theme" id="service-slider">
-                {list.map(({ title, text }, index) => {
+              <ItemsCarousel
+                requestToChangeActive={setActiveItemIndex}
+                activeItemIndex={activeItemIndex}
+                numberOfCards={4}
+                gutter={20}
+                leftChevron={<button>{'<'}</button>}
+                rightChevron={<button>{'>'}</button>}
+                outsideChevron
+                chevronWidth={chevronWidth}
+              >
+                {list.map(({ imgSrc, title, text }, index) => {
                   return (<div className="item" key={index}>
                     <div className="service-item text-center">
                       <figure>
-                        <img src={service01} alt="service-img" />
+                        <img src={imgSrc} alt="service-img" />
                       </figure>
                       <h3>{title}</h3>
                       <p>{text}</p>
@@ -41,7 +47,10 @@ export default function Services({ title, list, imgSrc }) {
                     </div>
                   </div>)
                 })}
-              </div>
+              </ItemsCarousel>
+
+              {/* <div className="owl-carousel owl-theme" id="service-slider"></div> */}
+
             </div>
             <div
               className="generic-btn d-block text-center"
