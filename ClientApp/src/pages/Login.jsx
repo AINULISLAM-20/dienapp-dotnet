@@ -1,7 +1,12 @@
 import React from 'react'
+import { LoginForm, Hero } from '../components'
+
 
 export function Login() {
     return (
-        <div>Login</div>
+       <React.Fragment>
+        <Hero />
+        <LoginForm/>
+       </React.Fragment>
     )
 }

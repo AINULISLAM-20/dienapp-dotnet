@@ -1,9 +1,9 @@
 import React from "react";
-import HeroImage from "../../images/home-girls-img.png";
-
 import './Hero.css'
 
-export default function Hero({ title, text, buttonText }) {
+import HeroImage from "../../images/home-girls-img.png";
+
+export default function Hero({ title = null, text = null, buttonText = [] }) {
   return (
     <section
       id="back-top"

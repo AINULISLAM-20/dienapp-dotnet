@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Services.css'
 import left from '../../images/left-angle.png'
 
 import ItemsCarousel from 'react-items-carousel';

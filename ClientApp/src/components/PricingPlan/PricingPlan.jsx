@@ -1,4 +1,5 @@
 import React from 'react'
+import './PricingPlan.css'
 
 import planCheck from '../../images/plan-check.png'
 

@@ -1,4 +1,5 @@
 import React from "react";
+import './PrimaryNav.css'
 import PhoneIcon from "../../images/phone-icon.png";
 import EmailIcon from "../../images/email-icon.png";
 

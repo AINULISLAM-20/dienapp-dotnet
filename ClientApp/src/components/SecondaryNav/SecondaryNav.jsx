@@ -1,6 +1,9 @@
 import React from "react";
+import './SecondaryNav.css'
+
 import BrandLogo from "../../images/logo-img.png";
 import mobileLogo from "../../images/mobile-logo.png";
+
 
 import { Link } from "react-router-dom";
 

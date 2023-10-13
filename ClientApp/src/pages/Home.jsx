@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Qualities, Services, TopProvider, OurProjects, ContactForm, PricingPlan, Tesstimonials } from "../components";
+import { Hero, Qualities, Services, TopProvider, OurProjects, ContactForm, PricingPlan, Tesstimonials  } from "../components";
 
 import service01 from '../images/service-img1.jpg'
 import service02 from '../images/service-img2.jpg'
@@ -76,6 +76,7 @@ export function Home() {
                 return <Services {...this} key={index} />
             }
         },
+
     ]
     return (
         <React.Fragment>

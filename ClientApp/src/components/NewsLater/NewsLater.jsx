@@ -1,4 +1,5 @@
 import React from 'react'
+import './Newslater.css'
 
 import paperPlane from '../../images/paper-plane-icon.png'
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ItemsCarousel from 'react-items-carousel';
 
+import './Testimonials.css'
 
 import starImg from '../../images/star-img.png'
 import clientImg1 from '../../images/client-img1.png'

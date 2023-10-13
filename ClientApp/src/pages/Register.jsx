@@ -1,7 +1,11 @@
 import React from 'react'
+import { Hero, RegisterForm } from '../components'
 
 export function Register() {
     return (
-        <div>Register</div>
+        <React.Fragment>
+            <Hero/>
+            <RegisterForm/>
+        </React.Fragment>
     )
 }

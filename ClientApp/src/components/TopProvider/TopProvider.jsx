@@ -1,4 +1,5 @@
 import React from 'react'
+import './TopProvider.css'
 
 import team01 from '../../images/team-image1.png'
 import team02 from '../../images/team-image2.png'
