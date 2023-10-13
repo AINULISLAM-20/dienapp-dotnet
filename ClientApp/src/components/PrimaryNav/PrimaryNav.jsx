@@ -1,14 +1,6 @@
 import React from "react";
-import './PrimaryNav.css'
-import PhoneIcon from "../../images/phone-icon.png";
-import EmailIcon from "../../images/email-icon.png";
-
-// icons
-import { FaFacebookF } from 'react-icons/fa'
-import { FaTwitter } from 'react-icons/fa'
-import { FaLinkedinIn } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
-
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
+import { BiSolidPhoneCall, BiSolidEnvelope } from 'react-icons/bi'
 import './PrimaryNav.css'
 
 export default function PrimaryNav() {
@@ -50,13 +42,13 @@ export default function PrimaryNav() {
               <ul className="list-unstyled mb-0 d-flex">
                 <li>
                   <a href="tel:+1 954-448-3716">
-                    <img src={PhoneIcon} alt="phone-icon" />
+                    <BiSolidPhoneCall />
                     +1 954-448-3716
                   </a>
                 </li>
                 <li>
                   <a href="mailto:Info@letsclean.com">
-                    <img src={EmailIcon} alt="email-icon" />
+                    <BiSolidEnvelope />
                     Info@dienapp.com
                   </a>
                 </li>

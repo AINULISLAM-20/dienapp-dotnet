@@ -386,8 +386,8 @@
     }
 
     .user-con {
-        padding-top: 120px;
-        padding-bottom: 90px;
+        /* padding-top: 120px;
+        padding-bottom: 90px; */
     }
 
     .plan-box::after {
@@ -894,8 +894,8 @@
     }
 
     .user-con {
-        padding-top: 100px;
-        padding-bottom: 80px;
+        /* padding-top: 100px;
+        padding-bottom: 80px; */
     }
 
     .price-title h2 {
@@ -1644,8 +1644,8 @@
     }
 
     .user-con {
-        padding-top: 70px;
-        padding-bottom: 70px;
+        /* padding-top: 70px;
+        padding-bottom: 70px; */
     }
 
     .price-title h2 {
@@ -2689,8 +2689,8 @@
     }
 
     .user-con {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        /* padding-top: 50px;
+        padding-bottom: 50px; */
     }
 
     .blog-item img {
