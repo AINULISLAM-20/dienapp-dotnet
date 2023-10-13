@@ -5,7 +5,7 @@ import { Loader, PrimaryNav, SecondaryNav, NewsLater, Footer, CopyRightFooter } 
 
 import './superclasses.css';
 import './custom.css';
-// import './mobile.css';
+import './mobile.css';
 
 export default class App extends Component {
   static displayName = App.name;
@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Loader />
+        {/* <Loader /> */}
         <PrimaryNav />
         <SecondaryNav />
         <Routes>
@@ -22,9 +22,9 @@ export default class App extends Component {
             return <Route key={index} {...rest} element={element} />;
           })}
         </Routes>
-        <NewsLater />
-        <Footer />
-        <CopyRightFooter />
+        {/* <NewsLater /> */}
+        {/* <Footer /> */}
+        {/* <CopyRightFooter /> */}
       </React.Fragment>
     );
   }

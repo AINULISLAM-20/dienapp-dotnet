@@ -1,4 +1,4 @@
-import { Home, AboutUs, ContactUs, Services, Register, Login, PrivacyPolicy, TermsAndConditions } from "./pages";
+import { Home, AboutUs, ContactUs, Services, Register, Login, PrivacyPolicy, TermsAndConditions, Test } from "./pages";
 
 const AppRoutes = [
   {
@@ -32,6 +32,10 @@ const AppRoutes = [
   {
     path: '/terms-and-conditions',
     element: <TermsAndConditions />
+  },
+  {
+    path: '/test',
+    element: <Test />
   }
 ];
 
