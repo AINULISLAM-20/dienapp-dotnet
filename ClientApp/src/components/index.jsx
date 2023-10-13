@@ -14,5 +14,7 @@ import Footer from "./Footer/Footer";
 import CopyRightFooter from "./CopyRightFooter/CopyRightFooter";
 import LoginForm from "./LoginForm/LoginForm";
 import RegisterForm from "./RegisterForm/RegisterForm";
+import ServiceDetail from "./ServiceDetail/ServiceDetail";
+import GetinTouch from "./GetinTouch/GetinTouch";
 
-export { Loader, PrimaryNav, SecondaryNav, Hero, Qualities, Services, TopProvider, OurProjects, ContactForm, PricingPlan, Tesstimonials, NewsLater, Footer, CopyRightFooter, LoginForm, RegisterForm }
+export { Loader, PrimaryNav, SecondaryNav, Hero, Qualities, Services, TopProvider, OurProjects, ContactForm, PricingPlan, Tesstimonials, NewsLater, Footer, CopyRightFooter, LoginForm, RegisterForm, ServiceDetail, GetinTouch  }

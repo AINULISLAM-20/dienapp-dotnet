@@ -7,7 +7,7 @@ import apple from '../../images/apple-login.png'
 import google from '../../images/google-login.png'
 import emailImage from '../../images/form-email-icon.png'
 import lockImage from '../../images/lock-icon.png'
-import useImage from '../../images/form-user-icon.png'
+import userImage from '../../images/form-user-icon.png'
 
 export default function RegisterForm() {
   return (
@@ -34,7 +34,7 @@ export default function RegisterForm() {
                     <div className="input-field">
                       <div className="input-field-icon position-relative d-inline-block">
                         <img
-                          src={useImage}
+                          src={userImage}
                           alt="form-email"
                         />
                       </div>
