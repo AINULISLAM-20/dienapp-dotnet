@@ -1,0 +1,92 @@
+/**** CLEAN SECTION****/
+.clean-con {
+    padding-top: 165px;
+    padding-bottom: 140px;
+}
+
+.generic-box {
+    gap: 48px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 46.5% 44%;
+}
+
+.generic-box-content h2 {
+    margin-bottom: 14px;
+}
+
+.generic-box-content p {
+    margin-bottom: 42px;
+    color: rgb(25 25 25 / 60%);
+}
+
+.generic-list ul li span {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary--color);
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.generic-list ul li {
+    margin-bottom: 37px;
+    background: url(../../images/check-icon.png) no-repeat;
+    padding-left: 50px;
+    padding-right: 29px;
+}
+
+.generic-list ul li p {
+    line-height: 24px;
+}
+
+.generic-box-content .call-number a {
+    color: #0f0d1d;
+}
+
+.generic-list ul li:last-child {
+    margin-bottom: 0;
+}
+
+.generic-list {
+    margin-bottom: 47px;
+}
+
+.generic-box-content .generic-btn a {
+    padding: 22px 48px 23px;
+}
+
+.more-details .generic-btn a {
+    padding: 20px 25px;
+}
+
+/** MOBILE APP SECTION****/
+.app-section div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.app-section div:nth-child(1) {
+    justify-content: flex-start;
+}
+
+.app-section div:nth-child(2) {
+    justify-content: center;
+    z-index: 1;
+    animation: mover 1s infinite alternate;
+}
+
+.app-section div:nth-child(3) {
+    justify-content: flex-end;
+
+}
+
+/** MOBILE APP SECTION****/
+
+
+
+/** CLEAN SECTION****/

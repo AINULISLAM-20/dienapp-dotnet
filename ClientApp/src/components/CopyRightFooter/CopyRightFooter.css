@@ -1,0 +1,35 @@
+.copyright-con {
+    padding: 18px 0;
+    background: #1e1e1e;
+}
+
+.footer-social ul li a i {
+    width: 36px;
+    height: 36px;
+    color: var(--white-color);
+    font-size: 14px;
+    border-radius: 50%;
+    border: 1px solid var(--white-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-social ul {
+    gap: 10px;
+}
+
+.copyright-txt span {
+    color: rgb(249 249 249 / 60%);
+}
+
+.black-btn {
+    position: absolute;
+    width: 98px;
+    height: 100%;
+    background: var(--primary--color);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}

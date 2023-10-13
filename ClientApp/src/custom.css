@@ -116,22 +116,6 @@ body {
     background: var(--secondary--color);
 }
 
-.top-bar-con {
-    padding: 16px 0;
-    background: var(--color--3);
-}
-
-.socisl-con ul li a i {
-    width: 36px;
-    height: 36px;
-    color: var(--white-color);
-    font-size: 14px;
-    border-radius: 50%;
-    border: 1px solid var(--white-color);
-    transition: all 0.5s ease-in-out;
-}
-
-.socisl-con ul li a i:hover,
 .generic-btn a:hover,
 .online-btn a:hover,
 .footer-social ul li a i:hover {
@@ -142,15 +126,6 @@ body {
     background-color: transparent;
     transform: translateY(-8px);
     color: var(--white-color);
-}
-
-.socisl-con ul {
-    gap: 10px;
-}
-
-.socisl-con span {
-    font-size: 16px;
-    padding-right: 23px;
 }
 
 .client-info ul {
@@ -431,98 +406,7 @@ span.error {
 }
 
 /*****CONTACT SECTION******/
-/**** CLEAN SECTION****/
-.clean-con {
-    padding-top: 165px;
-    padding-bottom: 140px;
-}
 
-.generic-box {
-    gap: 48px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 46.5% 44%;
-}
-
-.generic-box-content h2 {
-    margin-bottom: 14px;
-}
-
-.generic-box-content p {
-    margin-bottom: 42px;
-    color: rgb(25 25 25 / 60%);
-}
-
-.generic-list ul li span {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--primary--color);
-    line-height: 18px;
-    margin-bottom: 9px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.generic-list ul li {
-    margin-bottom: 37px;
-    background: url(./images/check-icon.png) no-repeat;
-    padding-left: 50px;
-    padding-right: 29px;
-}
-
-.generic-list ul li p {
-    line-height: 24px;
-}
-
-.generic-box-content .call-number a {
-    color: #0f0d1d;
-}
-
-.generic-list ul li:last-child {
-    margin-bottom: 0;
-}
-
-.generic-list {
-    margin-bottom: 47px;
-}
-
-.generic-box-content .generic-btn a {
-    padding: 22px 48px 23px;
-}
-
-.more-details .generic-btn a {
-    padding: 20px 25px;
-}
-
-/** MOBILE APP SECTION****/
-.app-section div {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-}
-
-.app-section div:nth-child(1) {
-    justify-content: flex-start;
-}
-
-.app-section div:nth-child(2) {
-    justify-content: center;
-    z-index: 1;
-    animation: mover 1s infinite alternate;
-}
-
-.app-section div:nth-child(3) {
-    justify-content: flex-end;
-
-}
-
-/** MOBILE APP SECTION****/
-
-
-
-/** CLEAN SECTION****/
 /***** SERVICE SECTION**/
 .service-con {
     padding-top: 94px;
@@ -1195,7 +1079,13 @@ span.error {
     transform: translatey(-52%);
 }
 
-.plan-box::after {
+.plan-box {
+    padding-top: 145px;
+    padding-bottom: 112px;
+    background: #f7f8fb;
+}
+
+/* .plan-box::after {
     content: "";
     width: 100%;
     height: 653px;
@@ -1203,7 +1093,7 @@ span.error {
     top: 167px;
     left: 0;
     position: absolute;
-}
+} */
 
 .plan-box .row {
     z-index: 1;
@@ -1496,28 +1386,7 @@ span.error {
     top: 1px;
 }
 
-.copyright-con {
-    padding: 18px 0;
-    background: #1e1e1e;
-}
 
-.footer-social ul li a i {
-    width: 36px;
-    height: 36px;
-    color: var(--white-color);
-    font-size: 14px;
-    border-radius: 50%;
-    border: 1px solid var(--white-color);
-    transition: all 0.5s ease-in-out;
-}
-
-.footer-social ul {
-    gap: 10px;
-}
-
-.copyright-txt span {
-    color: rgb(249 249 249 / 60%);
-}
 
 .footer-con:after {
     content: "";
@@ -1551,19 +1420,6 @@ span.error {
     position: absolute;
 }
 
-.black-btn {
-    position: absolute;
-    width: 98px;
-    height: 72px;
-    background: var(--primary--color);
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 0;
-    transition: all 0.5s ease-in-out;
-}
-
 .plan-con {
     margin-bottom: 170px;
 }
@@ -1572,7 +1428,11 @@ span.error {
     margin-bottom: 50px;
 }
 
-.owl-carousel .owl-item img {
+.testimonial-container .gwZiig {
+    overflow: hidden;
+}
+
+.testimonial-container img {
     display: block;
     width: auto;
 }
@@ -2629,12 +2489,10 @@ li.page-item.last {
     color: var(--white-color);
 }
 
-.socisl-con ul li a,
 .footer-social ul li a {
     text-decoration: none;
 }
 
-.socisl-con ul li a i:hover,
 .footer-social ul li a i:hover {
     background: var(--primary--color);
     border-color: var(--primary--color);

@@ -8,18 +8,19 @@ import HeadPhoneIcon from '../../images/headphones-icon.png'
 import btn01 from '../../images/btn-1.webp'
 import btn02 from '../../images/btn-2.webp'
 
+import './Qualities.css'
+
 
 
 export default function Qualities({ title, text, bulletText }) {
   return (
-    <div>
-      {/* QUALITIES SECTION */}
-      <section className="w-100 float-left clean-con">
-        <div className="wrapper2">
-          <div className="generic-box">
-            <div className="h-100 position-relative" data-aos="fade-up" data-aos-duration={600}>
-              <div className="app-section">
-                <div>
+    <section className="w-100 clean-con">
+      <div className="container">
+        <div className="row g-3">
+          <div className="col-md-6">
+            <div className="h-100" data-aos="fade-up" data-aos-duration={600}>
+              <div className="app-section position-relative">
+                <div className='d-none d-md-flex'>
                   <img
                     src={Mobile02}
                     alt="clean-img"
@@ -27,10 +28,14 @@ export default function Qualities({ title, text, bulletText }) {
                     height={600}
                   />
                 </div>
-                <div>
-                  <img src={Mobile01} alt="clean-img" />
+                <div className='position-relative position-md-absolute'>
+                  <img
+                    src={Mobile01}
+                    alt="clean-img"
+                    width="auto"
+                    height={700} />
                 </div>
-                <div>
+                <div className='d-none d-md-flex'>
                   <img
                     src={Mobile03}
                     alt="clean-img"
@@ -39,29 +44,34 @@ export default function Qualities({ title, text, bulletText }) {
                   />
                 </div>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "flex-end",
-                  height: "100%",
-                  marginTop: 50
-                }}
-              >
-                <img
-                  className="mx-2"
-                  style={{ cursor: "pointer" }}
-                  src={btn01}
-                  alt=""
-                />
-                <img
-                  className="mx-2"
-                  style={{ cursor: "pointer" }}
-                  src={btn02}
-                  alt=""
-                />
+
+              <div className="row g-3">
+                <div className="col-md-6 d-flex justify-content-center justify-content-md-end">
+                  <a href="#">
+                    <img className='cursor-pointer'
+                      src={btn01}
+                      alt="App-Store"
+                      height={50}
+                      width="auto"
+                    />
+                  </a>
+                </div>
+                <div className="col-md-6 d-flex justify-content-center justify-content-md-start">
+                  <a href="#">
+                    <img
+                      className="cursor-pointer"
+                      src={btn02}
+                      alt="Google-Play"
+                      height={50}
+                      width="auto"
+                    />
+                  </a>
+                </div>
               </div>
+
             </div>
+          </div>
+          <div className="col-md-6">
             <div className="generic-box-content position-relative">
               <h2 data-aos="fade-up" data-aos-duration={600}>
                 {title}
@@ -102,8 +112,7 @@ export default function Qualities({ title, text, bulletText }) {
             </div>
           </div>
         </div>
-      </section>
-      {/* QUALITIES SECTION */}
-    </div>
+      </div>
+    </section >
   )
 }
