@@ -1,0 +1,164 @@
+/*****BANNER SECTION******/
+.banner-inner-con {
+    padding-top: 310px;
+    padding-bottom: 269px;
+}
+
+.banner-con {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-banner {
+    overflow: hidden;
+    background-image: url(../../images/home-banner.jpg);
+    background-size: cover;
+}
+
+.banner-inner-con:after,
+.contact-con:after {
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: var(--overlay-color);
+}
+
+.contact-title:after {
+    top: 2px;
+    right: 56px;
+    content: "";
+    width: 59px;
+    height: 40px;
+    position: absolute;
+    background: url(../../images/contact-leaf.png) no-repeat;
+}
+
+.banner-inner-con:before {
+    bottom: 0;
+    left: 0;
+    content: "";
+    z-index: 3;
+    width: 354px;
+    height: 347px;
+    position: absolute;
+    background: url(../../images/banner-dots-img.png) no-repeat;
+}
+
+.banner-con:before {
+    top: 61px;
+    left: 24px;
+    z-index: 2;
+    content: "";
+    width: 460px;
+    height: 304px;
+    position: absolute;
+    background: url(../../images/banner-bubble-top-img.png) no-repeat;
+    animation: mover 1s infinite alternate;
+}
+
+.banner-con:after {
+    bottom: -78px;
+    left: 50%;
+    z-index: 2;
+    content: "";
+    width: 257px;
+    height: 335px;
+    position: absolute;
+    background: url(../../images/banner-bubble-bottom-img.png) no-repeat;
+    transform: translateX(-140%);
+    animation: mover 1s infinite alternate;
+}
+
+.banner-title h1 {
+    margin-bottom: 16px;
+}
+
+.banner-title p {
+    font-size: 16px;
+    line-height: 29px;
+    padding-right: 94px;
+    margin-bottom: 44px;
+    color: rgb(255 255 255 / 60%);
+}
+
+.banner-title:after {
+    top: -76px;
+    right: 40px;
+    content: "";
+    width: 85px;
+    height: 58px;
+    position: absolute;
+    background: url(../../images/banner-left-leaf.png) no-repeat;
+}
+
+.banner-title:before {
+    top: 130px;
+    left: -130px;
+    content: "";
+    width: 52px;
+    height: 31px;
+    position: absolute;
+    background: url(../../images/banner-rt-leaf.png) no-repeat;
+}
+
+.call-con img {
+    left: 0;
+    top: -6px;
+    position: absolute;
+}
+
+.call-number {
+    padding-left: 81px;
+}
+
+.call-number span {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 11px;
+    color: rgb(0 0 0 / 70%);
+}
+
+.call-number a {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.call-number-01 {
+    padding-left: 81px;
+    transition: all 0.5s ease-in-out;
+}
+
+.call-number-01:hover {
+    transform: translateY(-8px);
+}
+
+.call-number-01 span {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 11px;
+    color: rgb(0 0 0 / 70%);
+}
+
+.call-number-01 a {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.more-details {
+    gap: 34px;
+}
+
+.banner-img {
+    left: -159px;
+    bottom: -295px;
+    position: absolute;
+}
+
+/*****BANNER SECTION******/

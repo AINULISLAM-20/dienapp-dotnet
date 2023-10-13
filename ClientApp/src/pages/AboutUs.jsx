@@ -12,7 +12,7 @@ export function AboutUs() {
         {
             title: "About Us",
             text: "Our four pillars—Quality, Responsibility, Accountability, Dedication—guide our daily operations, fostering lasting relationships with customers, employees, stakeholders, and the community",
-            buttonText: [],
+            buttonText: ["register as service provider", "lets find service provider"],
             renderComponent: function (index) {
                 return <Hero {...this} key={index} />
             }
@@ -78,13 +78,13 @@ export function AboutUs() {
     ]
     return (
         <React.Fragment>
-            
+
             {AboutData.map((a, index) => {
                 return a.renderComponent(index)
             })}
 
-            <ContactForm/>
-            <Tesstimonials/>
+            <ContactForm />
+            <Tesstimonials />
         </React.Fragment>
     )
 }

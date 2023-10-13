@@ -1,0 +1,91 @@
+.header-con .navbar-dark .navbar-nav .nav-link.active {
+    color: var(--accent);
+}
+
+.nav-item.dropdown .dropdown-menu {
+    margin-top: -4px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: var(--accent);
+
+}
+
+.header-con .dropdown-menu {
+    border: none;
+}
+
+.dropdown-item:hover {
+    color: var(--accent);
+    background: var(--white-color);
+}
+
+.dropdown-item {
+    font-size: 14px;
+    color: var(--white-color);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding: 4px 20px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.dropdown-item:hover {
+    background: var(--accent);
+    color: #fff;
+}
+
+.header-con .navbar-dark .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #0a0a0a;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-con .navbar-dark .navbar-nav .nav-button {
+    background-color: var(--accent);
+    padding: 10px 25px;
+    color: var(--white-color);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-con .navbar-dark .navbar-nav .nav-button:hover {
+    transform: translateY(-8px);
+}
+
+.header-con .navbar-dark .navbar-nav {
+    gap: 57px;
+    align-items: center;
+}
+
+.header-con {
+    padding: 11px 0;
+}
+
+.header-con .navbar-brand figure {
+    left: 50%;
+    top: -105px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.header-con .navbar-dark .navbar-brand {
+    z-index: 1;
+    position: relative;
+}
+
+.header-con .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--primary--color);
+}
+
+/*** HEADER SECTION *********/
