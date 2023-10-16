@@ -28,28 +28,28 @@ export default function TopProvider() {
               <ul className="list-unstyled">
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
@@ -72,28 +72,28 @@ export default function TopProvider() {
               <ul className="list-unstyled">
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
@@ -116,28 +116,28 @@ export default function TopProvider() {
               <ul className="list-unstyled">
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
@@ -160,28 +160,28 @@ export default function TopProvider() {
               <ul className="list-unstyled">
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-flex justify-content-center" >
-                    <i style={{ color: "#FFC107", fontSize: "2rem" }}>
+                    <i style={{ color: "#FFC107", fontSize: "1rem" }}>
                       <FaStar />
                     </i>
                   </a>

@@ -7,6 +7,8 @@ import './superclasses.css';
 import './custom.css';
 import './mobile.css';
 
+import "animate.css/animate.min.css";
+
 export default class App extends Component {
   static displayName = App.name;
 

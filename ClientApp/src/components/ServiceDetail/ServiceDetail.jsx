@@ -5,13 +5,9 @@ import cleanImage from "../../images/clean-img2.jpg";
 export default function ServiceDetail() {
   return (
     <section className="w-100 float-left clean-con">
-      <div className="wrapper2">
+      <div className="container">
         <div className="generic-box service-box position-relative">
-          <div
-            className="generic-box-img"
-            data-aos="fade-up"
-            data-aos-duration={600}
-          >
+          <div className="generic-box-img" data-aos="fade-up" data-aos-duration={600}>
             <div className="generic-box-img1 position-relative">
               <figure className="mb-0">
                 <img src={cleanImage} alt="clean-img" />

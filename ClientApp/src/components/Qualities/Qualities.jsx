@@ -11,6 +11,8 @@ import btn02 from '../../images/btn-2.webp'
 
 import './Qualities.css'
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 export default function Qualities({ title, text, bulletText }) {
@@ -19,57 +21,54 @@ export default function Qualities({ title, text, bulletText }) {
       <div className="container">
         <div className="row g-3">
           <div className="col-md-6">
-            <div className="h-100" data-aos="fade-up" data-aos-duration={600}>
-              <div className="app-section position-relative">
-                <div className='d-none d-md-flex'>
-                  <img
-                    src={Mobile02}
-                    alt="clean-img"
-                    width="auto"
-                    height={600}
-                  />
-                </div>
-                <div className='position-relative position-md-absolute'>
-                  <img
-                    src={Mobile01}
-                    alt="clean-img"
-                    width="auto"
-                    height={700} />
-                </div>
-                <div className='d-none d-md-flex'>
-                  <img
-                    src={Mobile03}
-                    alt="clean-img"
-                    width="auto"
-                    height={600}
-                  />
-                </div>
+            <div className="app-section position-relative">
+              <div className='d-none d-md-flex'>
+                <img
+                  src={Mobile02}
+                  alt="clean-img"
+                  width="auto"
+                  height={600}
+                />
               </div>
-
-              <div className="row g-3">
-                <div className="col-md-6 d-flex justify-content-center justify-content-md-end">
-                  <a href="#">
-                    <img className='cursor-pointer'
-                      src={btn01}
-                      alt="App-Store"
-                      height={50}
-                      width="auto"
-                    />
-                  </a>
-                </div>
-                <div className="col-md-6 d-flex justify-content-center justify-content-md-start">
-                  <a href="#">
-                    <img
-                      className="cursor-pointer"
-                      src={btn02}
-                      alt="Google-Play"
-                      height={50}
-                      width="auto"
-                    />
-                  </a>
-                </div>
+              <div className='position-relative position-md-absolute'>
+                <img
+                  src={Mobile01}
+                  alt="clean-img"
+                  width="auto"
+                  height={700} />
               </div>
+              <div className='d-none d-md-flex'>
+                <img
+                  src={Mobile03}
+                  alt="clean-img"
+                  width="auto"
+                  height={600}
+                />
+              </div>
+            </div>
 
+            <div className="row g-3">
+              <div className="col-md-6 d-flex justify-content-center justify-content-md-end">
+                <a href="#">
+                  <img className='cursor-pointer'
+                    src={btn01}
+                    alt="App-Store"
+                    height={50}
+                    width="auto"
+                  />
+                </a>
+              </div>
+              <div className="col-md-6 d-flex justify-content-center justify-content-md-start">
+                <a href="#">
+                  <img
+                    className="cursor-pointer"
+                    src={btn02}
+                    alt="Google-Play"
+                    height={50}
+                    width="auto"
+                  />
+                </a>
+              </div>
             </div>
           </div>
           <div className="col-md-6">

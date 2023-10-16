@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './SecondaryNav.css'
 
 import BrandLogo from "../../images/logo-img.png";
@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 
 
 export default function SecondaryNav() {
+  const [menuClick, setMenuClick] = useState({ isCheck: true });
+
   return (
     <header className="w-100 header-con">
       <div className="container">
@@ -17,13 +19,14 @@ export default function SecondaryNav() {
             <img src={mobileLogo} alt="mobile-logo" />
           </Link>
           <button
-            className="navbar-toggler collapsed"
+            className={`navbar-toggler ${menuClick.isCheck === true ? "collapsed" : ""}`}
             type="button"
             data-toggle="collapse"
             data-target="#navbarToggle"
             aria-controls="navbarToggle"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={() => setMenuClick(prevState => { return { ...prevState, isCheck: prevState.isCheck === false ? true : false } })}
           >
             <span className="navbar-toggler-icon" />
             <span className="navbar-toggler-icon" />
@@ -31,7 +34,7 @@ export default function SecondaryNav() {
           </button>
           {/*  Use flexbox utility classes to change how the child elements are justified  */}
           <div
-            className="collapse navbar-collapse justify-content-between"
+            className={`collapse navbar-collapse justify-content-between ${menuClick.isCheck === true ? "" : "show"}`}
             id="navbarToggle"
           >
             <ul className="navbar-nav">
